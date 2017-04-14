@@ -24,7 +24,6 @@ nrOfSymbols = 2
 
 # Define general constants
 
-infinite = 1e10
 weightGain = 0.005
 costThreshold = 0.1
 
@@ -155,7 +154,7 @@ def computeAverageCost ():
     
 averageCost = computeAverageCost ()
 iterationIndex = 0
-while averageCost  > costThreshold:
+while averageCost > costThreshold:
     bestCostIncrease = 0
     bestLink = None
     
